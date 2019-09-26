@@ -6,7 +6,7 @@ set -o pipefail
 
 lang=false
 host=${RS_HOST:-}
-port="1234"
+port="1337"
 
 while getopts 'l:h:p:' OPTION; do
   case "$OPTION" in
